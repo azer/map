@@ -6,7 +6,7 @@ $ npm install map
 ```
 
 ## Usage
-```
+```js
 var keywords = ['foo', 'bar'],
     people = { lennon: "John Lennon", best: "George Best" };
 
@@ -24,7 +24,7 @@ map(searchGoogle, people, function(error, results){
 
 Since iterables aren't first parameters, new functions can be created from map;
 
-```
+```js
 searchGoogle = map.bind(null, searchGoogle);
 
 searchGoogle(['hello', 'kitty'], function(){}); // or
