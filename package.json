@@ -1,0 +1,21 @@
+{
+  "name": "map",
+  "version": "0.0.0",
+  "description": "async map. iterates both array and objects.",
+  "main": "map.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:azer/map.js.git"
+  },
+  "keywords": [
+    "map",
+    "async",
+    "control",
+    "flow"
+  ],
+  "author": "Azer Koculu <azer@kodfabrik.com>",
+  "license": "BSD"
+}
