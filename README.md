@@ -7,25 +7,10 @@ $ npm install map
 
 ## Usage
 ```js
-var keywords = ['foo', 'bar'],
-    people = { lennon: "John Lennon", best: "George Best" };
+var keywords = ['foo', 'bar'];
 
-map(searchGoogle, keywords, function(error, results){
+map(search, keywords, function(error, results){
   error.should.not.exist();
   results.should.have.length(2);
 });
-
-map(searchGoogle, people, function(error, results){
-  error.should.not.exist();
-  results.should.contain('lennon');
-  results.should.contain('best');
-});
-```
-
-Since iterables aren't first parameters, new functions can be created from map;
-
-```js
-searchGoogle = map.bind(null, searchGoogle);
-
-searchGoogle(['hello', 'kitty'], function(){}); // or
 ```
