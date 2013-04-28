@@ -1,4 +1,4 @@
-Async [Map](http://en.wikipedia.org/wiki/Map_\(higher-order_function\)). Iterates arrays and objects.
+Parallel Async [Map](http://en.wikipedia.org/wiki/Map_\(higher-order_function\)). Iterates arrays and objects.
 
 ## Install
 ```
