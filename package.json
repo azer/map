@@ -4,7 +4,10 @@
   "description": "async map. iterates both array and objects.",
   "main": "map.js",
   "scripts": {
-    "test": "mocha"
+    "test": "fox"
+  },
+  "devDependencies": {
+    "fox": "*"
   },
   "repository": {
     "type": "git",
