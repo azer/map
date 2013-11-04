@@ -8,7 +8,7 @@ $ npm install map
 ## Usage
 
 ```js
-parallel = require('parallel')
+map = require('map')
 keywords = ['foo', 'bar']
 
 map(search, keywords, function (error, results) {
